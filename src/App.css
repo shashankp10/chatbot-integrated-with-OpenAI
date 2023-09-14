@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(154deg, #00102F 0%, rgba(0, 65.05, 189.24, 0) 100%);
+}
+
+h1 {
+  width: 348px;
+  height: 54px;
+  margin-left: 500px;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  font-family: 'Lexend Mega';
+  font-weight: 900;
+  word-wrap: break-word;
+
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 10px auto;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.chat-container {
+  padding: 30px;
+  overflow-y: scroll;
+  text-align: center;
+  height: 300px;
+}
+
+.message {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 40px;
+  margin: 10px 0;
+  max-width: 80%;
+}
+
+.input-container {
+  width: 90%;
+  padding: 20px;
+  display: flex;
+  background-color: #fff;
+}
+
+.intro{
+  margin-top: -10px;
+  margin-left: 5px;
+  width : 230px;
+  font-size: 22px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.result{
+  border-radius: 15px;
+  border: 1px solid #000;
+  margin-top: -15px;
+  margin-left: 5px;
+  width : 350px;
+  background-color:#f1f5fa;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 2px;
+}
+
+#userInput {
+width: 100%;
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  background: #C4C4C4;
+  border-radius: 35px;
+  margin-right: 10px;
+}
+
+#fetchDataButton {
+  border: none;
+  background-color: transparent;
+  font-size: 1.3rem;
+  color: black;
+  padding: 2px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
